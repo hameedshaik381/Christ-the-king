@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -16,6 +18,8 @@
     "@mui/material": "^5.11.1",
     "bootstrap": "^5.2.3",
     "evergreen-ui": "^6.13.2",
+    "firebase": "^9.15.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-auto-image-slider": "^1.0.0",
     "react-bootstrap": "^2.7.0",
