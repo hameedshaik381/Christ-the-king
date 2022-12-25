@@ -10,19 +10,30 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { Container,Row,Col } from "react-bootstrap";
 import Sidebar from "./Components/Sidebar";
-import Article from "./Components/Article";
+import Announcements from "./Components/Announcements";
+import About from "./Components/About";
 
 
 
 
 function App() {
   return (
-    <Box display="block" bgcolor="pink" >
+    <Box display="block" bgcolor="#f8f9fa" >
       <Topbar />
       
-      <Container fluid  >
-      <Sliderbox/>
-      
+      <Container fluid >
+      <Row >
+        <Col sm={8}>
+        <Sliderbox/>
+        </Col>
+        <Col sm={4}>
+        <Announcements/>
+        </Col>
+        
+        </Row>
+        
+     
+      <About/>
     </Container>
       
       

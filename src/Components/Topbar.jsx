@@ -7,7 +7,7 @@ const Topbar=()=> {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
       <Container>
-        <Navbar.Brand href="#home" style={{fontWeight:"bold",fontFamily:"Roboto",fontSize:"30px",color:"whitesmoke"}}>Christ the King</Navbar.Brand>
+        <Navbar.Brand href="#home" style={{fontWeight:"bold",fontFamily:"Roboto",fontSize:"30px"}}>Christ the King</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

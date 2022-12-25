@@ -13,9 +13,9 @@ const Sliderbox =()=> {
     <Carousel   activeIndex={index} onSelect={handleSelect} fade={true} touch={true} interval={2000} >
       <Carousel.Item >
         <img
-          className="d-block w-100  img-fluid  mx-auto rounded text-center "
+          className="d-block w-100  img-fluid  mx-auto rounded text-center  "
           src="https://vijayawadadiocese.org/wp-content/uploads/photo-gallery/PRIESTLY_ORDINATION_2017/1.jpg"
-          alt="First slide"  style={{objectFit:"cover",height:"500px"}}
+          alt="First slide"  style={{objectFit:"fill",height:"400px"}}
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -24,9 +24,9 @@ const Sliderbox =()=> {
       </Carousel.Item>
       <Carousel.Item >
         <img
-          className="d-block w-100  img-fluid mx-auto rounded text-center"
+          className="d-block w-100  img-fluid mx-auto rounded text-center "
           src="https://www.infomediasearch.com/media/post/2017/2/25/christ-the-king-engineering-college15845536112-img.png"
-          alt="Second slide" style={{objectFit:"cover",height:"500px"}}
+          alt="Second slide" style={{objectFit:"fill",height:"400px"}}
         />
 
         <Carousel.Caption>
@@ -36,10 +36,10 @@ const Sliderbox =()=> {
       </Carousel.Item>
       <Carousel.Item >
         <img
-          className="d-block w-100  img-fluid mx-auto rounded text-center"
+          className="d-block w-100  img-fluid mx-auto rounded text-center "
           src="https://cdn.ghanaweb.com/imagelib/pics/866/86699307.jpg"
           alt="Third slide"
- style={{objectFit:"cover",height:"500px"}}        />
+ style={{objectFit:"fill",height:"400px"}}        />
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
