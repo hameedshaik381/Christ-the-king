@@ -10,6 +10,8 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { Route, Routes } from "react-router-dom";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 
 
@@ -24,8 +26,9 @@ function App() {
      <Route path="/" element={ <Home/>} exact/>
      <Route path="/student-corner" element={ <Homework/>} exact/>
      <Route path="/school" element={ <Schoolinfo/>} exact/>
-
+     <Route path="/contact" element={ <Contact/>} exact/>
      </Routes>
+     <Footer/>
   </Box>
   );
 }
