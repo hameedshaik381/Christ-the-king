@@ -19,8 +19,8 @@ const Sliderbox = () => {
     >
       <Carousel.Item>
         <img
-          className="d-block w-100 object-fit-fill img-fluid  mx-auto rounded text-center p-2 mt-3  "
-          style={{ height: "500px" }}
+          className="d-block w-100 object-fit-cover img-fluid  mx-auto  text-center  "
+          style={{ height: "600px" }}
           src="https://vijayawadadiocese.org/wp-content/uploads/photo-gallery/PRIESTLY_ORDINATION_2017/1.jpg"
           alt="First slide"
         />
@@ -28,8 +28,8 @@ const Sliderbox = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 object-fit-fill mg-fluid mx-auto rounded text-center p-2 mt-3 "
-          style={{ height: "500px" }}
+          className="d-block w-100 object-ficoverll mg-fluid mx-auto  text-center "
+          style={{ height: "600px" }}
           src="https://www.infomediasearch.com/media/post/2017/2/25/christ-the-king-engineering-college15845536112-img.png"
           alt="Second slide"
         />
@@ -38,8 +38,8 @@ const Sliderbox = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 object-fit-fill mg-fluid mx-auto rounded text-center p-2 mt-3 "
-          style={{ height: "500px" }}
+          className="d-block w-100 object-ficoverll mg-fluid mx-auto  text-center "
+          style={{ height: "600px" }}
           src="https://cdn.ghanaweb.com/imagelib/pics/866/86699307.jpg"
           alt="Third slide"
         />

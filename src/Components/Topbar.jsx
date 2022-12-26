@@ -10,11 +10,11 @@ const Topbar=()=> {
     <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="light">
       <Container  >
         <Navbar.Brand  >
-        <Link to="/"><div className='h2 text-warning btn font-bold' >Christ <span className="h6 text-white">the king</span></div></Link>
+        <Link to="/"><div className=' text-warning btn font-bold' >Christ <span className="h6 text-white">the king</span></div></Link>
        
        
        </Navbar.Brand>
-        <Nav.Link ><Button><Link style={{textDecoration:"none",color:"whitesmoke"}} to="student-corner">Students</Link></Button></Nav.Link>
+        <Nav.Link ><Button><Link style={{textDecoration:"none",color:"whitesmoke"}} to="student-corner">Homework</Link></Button></Nav.Link>
       
             
             

@@ -19,7 +19,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <Box display="block"  >
+    <Box   >
       <Topbar />
       
      <Routes>
