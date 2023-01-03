@@ -7,7 +7,7 @@ import Eventspanel from './Eventspanel'
 
 const About = () => {
   return (
-    <Container fluid className='  bg-warning'>
+    <Container fluid className='  bg-info'>
     <Row >
       <Col sm={3} >
       <Announcements/>

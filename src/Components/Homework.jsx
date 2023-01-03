@@ -36,7 +36,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     <Card>
@@ -70,7 +70,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     <Card>
@@ -104,7 +104,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     <Card>
@@ -138,7 +138,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     <Card>
@@ -172,7 +172,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     <Card>
@@ -206,7 +206,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     <Card>
@@ -240,7 +240,7 @@ function Homework() {
       </tbody>
     </Table>
         </Card.Text>
-        <Button variant="primary">Download</Button>
+       
       </Card.Body>
     </Card>
     </div>

@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import Topbar from "./Components/Topbar";
 import Home from './Components/Home'
 import Schoolinfo from './Components/Schoolinfo'
-import Homework from './Components/Homework'
+import Homeworklist from './Components/Homeworklist'
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -24,11 +24,11 @@ function App() {
       
      <Routes>
      <Route path="/" element={ <Home/>} exact/>
-     <Route path="/student-corner" element={ <Homework/>} exact/>
+     <Route path="/student-corner" element={ <Homeworklist/>} exact/>
      <Route path="/school" element={ <Schoolinfo/>} exact/>
      <Route path="/contact" element={ <Contact/>} exact/>
      </Routes>
-     <Footer/>
+  
   </Box>
   );
 }
