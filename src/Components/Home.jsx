@@ -5,13 +5,16 @@ import About from "./About";
 import Sliderbox from "./Sliderbox";
 import Eventspanel from './Eventspanel'
 
+import Grid from '@mui/material/Grid';
+import { Box } from "@mui/system";
+
+
 const Home = () => {
   return (
     <div >
+ <Sliderbox/>
+ 
       
-      <Sliderbox/>
-      <About/>
-      <Eventspanel/>
       
     </div>
   );

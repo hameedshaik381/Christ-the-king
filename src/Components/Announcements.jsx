@@ -3,8 +3,8 @@ import React from "react";
 const Announcements = () => {
   return (
     <div
-      className=" w-100  text-primary text-center bg-light rounded shadow-sm mt-2 border-success"
-      style={{ height: "385px" }}
+      className=" w-100  text-primary text-center bg-light  shadow-sm  border-success"
+      style={{ height: "500px" }}
     >
       <h3>Announcements</h3>
       <marquee

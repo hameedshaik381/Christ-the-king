@@ -10,7 +10,7 @@ const About = () => {
     <Container fluid className='  bg-info'>
     <Row >
       <Col sm={3} >
-      <Announcements/>
+      
      
       </Col>
       <Col sm={6} >
